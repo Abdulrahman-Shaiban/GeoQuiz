@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">GeoQuiz</string>
+
+    <string name="question_1_1">Istanbool is the capital of Turkey</string>
+    <string name="question_1_2">Londen is the capital of UK</string>
+    <string name="question_1_3">Iskandria is the capital of Egypt</string>
+    <string name="question_1_4">Barcelona is the capital of Spain</string>
+    <string name="question_1_5">Canada is in America</string>
+    <string name="question_1_6">China is in Eurpe</string>
+    <string name="question_1_7">Newyork the capital of USA</string>
+    <string name="question_1_8">Sana`a is the capital of Yemen</string>
+    <string name="question_1_9">Aden is an Amirican State</string>
+    <string name="question_1_10">Egypt is in Africa</string>
+    <string name="question_1_11">libnan is Asian country</string>
+    <string name="question_1_12">Moraco is in Eurpe</string>
+
+    <string name="question_2_1">Messi is the best player in the history</string>
+    <string name="question_2_2">Barcelona is champion of spain</string>
+    <string name="question_2_3">PSG play in Laliga</string>
+    <string name="question_2_4">spain won the World Cup 2010</string>
+    <string name="question_2_5">Neymar is a Goolkeeper</string>
+    <string name="question_2_6">Goardila Coatch in Manchester City</string>
+    <string name="question_2_7">Germany won the World Cup 2018</string>
+    <string name="question_2_8">france is the Eupian champion 2019</string>
+    <string name="question_2_9">PSG is a France Team</string>
+    <string name="question_2_10">Jeventus won the UCL 10 times</string>
+    <string name="question_2_11">agureo is a spanish player </string>
+    <string name="question_2_12">Ronaldinho played for AC Milan</string>
+
+    <string name="question_3_1">Android is an oprating system</string>
+    <string name="question_3_2">Android depend on Java</string>
+    <string name="question_3_3">Android was found 2000</string>
+    <string name="question_3_4">Android can be used in windows</string>
+    <string name="question_3_5">Flutter is an Android Framework</string>
+    <string name="question_3_6">Android Studio is an C++ IDE</string>
+    <string name="question_3_7">Kotlen is a web lunguge </string>
+    <string name="question_3_8">C# is a web lunguge </string>
+    <string name="question_3_9">Android can be used in MAC </string>
+    <string name="question_3_10">Kotlen is a web lunguge </string>
+    <string name="question_3_11">Android can use pattern design </string>
+    <string name="question_3_12">c++ is a desktop lunguge </string>
+
+    <string name="true_btn">Yes</string>
+    <string name="false_btn">No</string>
+    <string name="correct_answer">Correct</string>
+    <string name="incorrect_answer">Incorrect</string>
+
+</resources>

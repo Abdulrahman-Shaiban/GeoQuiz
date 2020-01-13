@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_results"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/background"
+        android:id="@+id/image_view"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:fontFamily="casual"
+        android:layout_margin="16dp"
+        android:id="@+id/grade"
+        />
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:layout_margin="16dp"
+        android:fontFamily="casual"
+        android:id="@+id/outOf"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:id="@+id/rw_layout">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:weightSum="2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Right:"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:layout_alignParentRight="true"
+                android:text="0"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                android:id="@+id/right_A"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:weightSum="2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Wrong:"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:layout_alignParentRight="true"
+                android:text="0"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                android:id="@+id/wrong_A"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_below="@+id/outOf"
+        android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retry Quiz"
+        android:padding="8dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#fff"
+        android:background="#4CAF50"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:layout_centerHorizontal="true"/>
+
+
+</LinearLayout>

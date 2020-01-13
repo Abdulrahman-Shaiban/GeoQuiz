@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3.5"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:gravity="center"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_launcher_foreground"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/colorBlue"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:textSize="20dp"
+            android:text="AAA"
+            android:textColor="#000"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:gravity="top"
+        android:paddingTop="30dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:gravity="top"
+            android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Geo"
+            android:id="@+id/first_btn"
+            android:textColor="#000"
+            android:fontFamily="casual"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sport"
+            android:id="@+id/second_btn"
+            android:textColor="#000"
+            android:fontFamily="casual"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:id="@+id/third_btn"
+            android:textColor="#000"
+            android:fontFamily="casual"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:gravity="center"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:id="@+id/rw_layout">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:weightSum="2"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Right:"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:layout_alignParentRight="true"
+                android:text="0"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                android:id="@+id/right_a"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:weightSum="2"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:text="Wrong:"
+                    android:fontFamily="casual"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:layout_alignParentRight="true"
+                    android:text="0"
+                    android:fontFamily="casual"
+                    android:textSize="20sp"
+                    android:id="@+id/wrong"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/hidden_Layout"
+        android:layout_weight="1.5"
+        android:weightSum="4"
+
+        >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:id="@+id/tv_question"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_weight="0.5"
+        android:padding="3dp"
+        android:text="Score:"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:padding="3dp"
+        android:layout_alignParentRight="true"
+        android:text="0"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:id="@+id/tv_score"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="True"
+            android:id="@+id/t_btn"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="#2196F3"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="False"
+            android:id="@+id/f_btn"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="#F44336"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+
+
+    </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheate"
+            android:id="@+id/cheat_btn"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="#000"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="50dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
